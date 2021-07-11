@@ -1,0 +1,11 @@
+
+    <div class="rbs-form">
+        <h4> Login Here  </h4>
+        <div class="form-group">
+            <label for="email" class="label">E-mail</label>
+            <input type="email" name="email" class="form-control" [(ngModel)]="email" placeholder="Enter your email">
+
+            <p style="color: red;" *ngIf="error">{{error}}</p>
+            <button type="button" class="btn btn-primary" (click)="login()">Login <i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>

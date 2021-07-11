@@ -1,0 +1,15 @@
+<nb-card>
+  <nb-card-header style="display: flex; justify-content: space-between;">
+    <div>
+      <h6>List of all users</h6>
+    </div>
+    <div> Number of users &nbsp;&nbsp;
+      <span class="badge badge-warning" style="padding: 0.5rem 0.5rem;"> {{ numberOfUsers }}</span>
+    </div>
+  </nb-card-header>
+
+  <nb-card-body>
+    <ng2-smart-table class="full-width text-center" [settings]="settings" [source]="source">
+    </ng2-smart-table>
+  </nb-card-body>
+</nb-card>

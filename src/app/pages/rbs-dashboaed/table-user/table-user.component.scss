@@ -1,0 +1,17 @@
+:host /deep/ ng2-smart-table tbody > tr > td {
+    padding: 0.25rem 1.25rem;
+  }
+
+  :host /deep/ .statut {
+    color: white;
+    border-radius: 10px;
+    font-size: 13px;
+    margin: 0;
+    }
+  
+  :host /deep/ .danger {
+    background:#dc3545;
+    }
+    :host /deep/ .success {
+    background:#28a745;
+  }
